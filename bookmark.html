@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Profile and Signup</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.profile-icon {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.signup-form {
+  display: none;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.signup-form h2 {
+  margin-top: 0;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #2980b9;
+}
+
+  </style>
+</head>
+<body>
+  <div class="profile-icon" id="profileIcon"></div>
+  <div class="signup-form" id="signupForm">
+    <h2>Sign Up</h2>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+  <script >
+document.addEventListener('DOMContentLoaded', () => {
+  const profileIcon = document.getElementById('profileIcon');
+  const signupForm = document.getElementById('signupForm');
+
+  profileIcon.addEventListener('click', () => {
+    profileIcon.style.display = 'none';  // Hide the profile icon
+    signupForm.style.display = 'block';
+  });
+});
+
+
+  </script>
+</body>
+</html>

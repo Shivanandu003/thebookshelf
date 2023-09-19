@@ -1,0 +1,354 @@
+*{
+  margin: 0;
+ 
+}
+#ACTION-TITLE{
+  margin-left: 11vh;
+  font-family: 'Anton', sans-serif;
+font-family: 'Rock Salt', cursive;
+font-family: 'Tektur', cursive;
+color: #f7f7f7;
+font-size: 10VH;
+font-weight: 20VH;
+}
+/* flex box*/
+
+
+
+.flex-container {
+  display: flex;
+  
+ margin: 30vh ;
+}
+
+.flex-container > div {
+
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  position: relative;
+}
+
+button{
+  background-color: #ccc;
+}
+button:hover{
+  background-color: #eb06062e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #side-bar{
+    width:10vh ;
+    height: 100vh;
+    background: #3f180f43;
+    position: absolute;
+    z-index: 999; 
+   
+  
+  }
+
+  /*side bar*/
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adjust the gap between buttons */
+    margin-top: 30vh;
+    position: absolute;
+  }
+  
+  .button-container button {
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 0);
+   background-color: rgba(240, 248, 255, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+   
+  }
+  #side-bar-icons{
+    height: 4vh;
+    filter: hue-rotate(20deg);
+  
+  }
+  .search-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ebeaea6c;
+    width: 70vh;
+    height: 3vh;
+    margin: 20px auto;
+}
+img{
+  height: 30vh;
+}
+#ACTION-HEAD-page1{
+  width: 210vh;
+ height: 50vh;
+background-image: url(Site-background-light.webp);
+background-repeat: repeat-x;
+background-size: 100vh; 
+position: absolute;
+z-index: -999; 
+}
+
+#page1{
+background-color: rgb(255, 0, 0);
+  width: 100vw;
+  height: 100vh;
+  /* Set your desired background color */
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+  position: absolute;
+  z-index: -999; 
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#page2{
+  background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
+    /* Set your desired background color */
+    margin: 0; /* Remove margin */
+    padding: 10; /* Remove padding */
+    position: absolute;
+    z-index: -999; 
+  }
+  #ACTION-HEAD-page2{
+    width: 210vh;
+ height: 22.7vh;
+background-image: url(crimeheader.jpg);
+
+background-repeat: repeat-x;
+background-size: 100vh; 
+position: absolute;
+
+z-index: -999; 
+  }
+  #ACTION-TITLE-page2{
+    margin-left: 11vh;
+    font-family: 'Anton', sans-serif;
+  font-family: 'Rock Salt', cursive;
+  font-family: 'Tektur', cursive;
+  color: #eb0606;
+  font-size: 10VH;
+  font-weight: 20VH;
+
+  }
+ .price{
+  color: white;
+ margin: 0.2vh 0px 0px 20px;
+ position: absolute;
+ }
+ #ROMANCE-TITLE-page3{
+  margin-left: 11vh;
+  font-family: 'Anton', sans-serif;
+font-family: 'Rock Salt', cursive;
+font-family: 'Tektur', cursive;
+color: #fffcfc;
+font-size: 10VH;
+font-weight: 20VH;
+
+}
+#page3{
+  background-color: rgba(195, 24, 95, 0.566);
+    width: 100vw;
+    height: 100vh;
+    /* Set your desired background color */
+    margin: 0; /* Remove margin */
+    padding: 10; /* Remove padding */
+    position: absolute;
+    z-index: -999; 
+  }
+  #ROMANCE-HEAD-page3{
+    width: 210vh;
+ height: 22.7vh;
+background-image: url(9905f4793f77037cc15f298cbe2576f7.jpg);
+
+background-repeat: repeat-x;
+background-size: 100vh; 
+position: absolute;
+
+z-index: -999; 
+  }
+
+  #COMEDY-TITLE-page4{
+    margin-left: 11vh;
+    font-family: 'Anton', sans-serif;
+  font-family: 'Rock Salt', cursive;
+  font-family: 'Tektur', cursive;
+  color: #eeff04;
+  font-size: 10VH;
+  font-weight: 20VH;
+  
+  }
+
+  #COMEDY-HEAD-page4{
+
+    width: 210vh;
+    height: 22.7vh;
+   background-image: url(comedyheader.jpg);
+   position: absolute;
+   background-repeat: repeat-x;
+   background-size: 100vh; 
+  
+   
+   z-index: -999; 
+
+  }
+  #page4{
+    background-color: rgba(189, 228, 32, 0.574);
+      width: 100vw;
+      height: 100vh;
+      /* Set your desired background color */
+      margin: 0; /* Remove margin */
+      padding: 10; /* Remove padding */
+      position: absolute;
+      z-index: -999; 
+    }
+    #page5{
+      background-color: rgba(228, 58, 32, 0.574);
+        width: 100vw;
+        height: 100vh;
+        /* Set your desired background color */
+        margin: 0; /* Remove margin */
+        padding: 10; /* Remove padding */
+        position: absolute;
+        z-index: -999; 
+      }
+      #page6{
+        background-color: rgb(47, 1, 65);
+          width: 100vw;
+          height: 100vh;
+          /* Set your desired background color */
+          margin: 0; /* Remove margin */
+          padding: 10; /* Remove padding */
+          position: absolute;
+          z-index: -999; 
+        }
+        #page7{
+          background-color: rgb(47, 1, 65);
+            width: 100vw;
+            height: 100vh;
+            /* Set your desired background color */
+            margin: 0; /* Remove margin */
+            padding: 10; /* Remove padding */
+            position: absolute;
+            z-index: -999; 
+          }
+  #page8{
+          background-color: rgb(47, 1, 65);
+            width: 100vw;
+            height: 100vh;
+            /* Set your desired background color */
+            margin: 0; /* Remove margin */
+            padding: 10; /* Remove padding */
+            position: absolute;
+            z-index: -999; 
+          }
+  
+
+    #DRAMA-HEAD-page5{
+      width: 210vh;
+      height: 22.7vh;
+     background-image: url(comedyheader.jpg);
+     position: absolute;
+     background-repeat: repeat-x;
+     background-size: 100vh; 
+    
+     
+     z-index: -999; 
+  
+    }
+   #DRAMA-TITLE-page5{
+    margin-left: 11vh;
+    font-family: 'Anton', sans-serif;
+  font-family: 'Rock Salt', cursive;
+  font-family: 'Tektur', cursive;
+  color: #eeff04;
+  font-size: 10VH;
+  font-weight: 20VH;
+   }
+   #horror-HEAD-page6{
+    width: 210vh;
+    height: 22.7vh;
+   background-image: url(horrorheader.jpg);
+   position: absolute;
+   background-repeat: repeat-x;
+   background-size: 100vh; 
+  
+   
+   z-index: -999; 
+
+  }
+ #horror-TITLE-page6{
+  margin-left: 11vh;
+  font-family: 'Anton', sans-serif;
+font-family: 'Rock Salt', cursive;
+font-family: 'Tektur', cursive;
+color: #640965;
+font-size: 10VH;
+font-weight: 20VH;
+ }
+ #scific-HEAD-page8{
+  width: 210vh;
+  height: 22.7vh;
+ background-image: url(scficheader.jpg);
+ position: absolute;
+ background-repeat: repeat-x;
+ background-size: 100vh; 
+
+ 
+ z-index: -999; 
+
+}
+#scific-TITLE-page8{
+margin-left: 11vh;
+font-family: 'Anton', sans-serif;
+font-family: 'Rock Salt', cursive;
+font-family: 'Tektur', cursive;
+color: #640965;
+font-size: 10VH;
+font-weight: 20VH;
+}
+#Mystery-HEAD-page7{
+  width: 210vh;
+  height: 22.7vh;
+ background-image: url(Mysteryheader.jpg);
+ position: absolute;
+ background-repeat: repeat-x;
+ background-size: 100vh; 
+
+ 
+ z-index: -999; 
+
+}
+#Mystery-TITLE-page7{
+margin-left: 11vh;
+font-family: 'Anton', sans-serif;
+font-family: 'Rock Salt', cursive;
+font-family: 'Tektur', cursive;
+color: #110f11;
+font-size: 10VH;
+font-weight: 20VH;
+}

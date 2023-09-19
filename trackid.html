@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Order Tracking</title>
+
+    <style>
+        /* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0073ff;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.order-status, .tracking-details {
+    margin-bottom: 2rem;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    width: 50%; /* Adjust this value based on order progress */
+    height: 100%;
+    background-color: #44bd32; /* Change color according to your design */
+}
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 40vh;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Order Tracking</h1>
+    </header>
+    <main>
+        <section class="order-status">
+            <h2>Order Status</h2>
+            <p>Your order is on its way!</p>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </section>
+        <section class="tracking-details">
+            <h2>Tracking Details</h2>
+            <ul>
+                <li>Shipped on: August 15, 2023</li>
+                <li>Estimated delivery: August 20, 2023</li>
+                <li>Tracking number: XYZ123456789</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 thebookshelf. All rights reserved.</p>
+    </footer>
+</body>
+</html>

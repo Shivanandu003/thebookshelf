@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Categories</title>
+  <style>
+    .button-container2 {
+  display: flex;
+  flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+  align-items: flex-start; /* Align items to the top */
+  gap: 10px;
+  margin: 4vh 0 0 8vh;
+}
+
+.button-container2 button {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none; /* Remove border */
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#view-all-button,
+#view-less-button {
+  width: 15vh;
+}
+
+#additional-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start; /* Align buttons to the left */
+}
+.hidden2{
+  display: none;
+}
+  </style>
+</head>
+
+
+<body>
+    <div id="catagores"></div>
+    <div class="button-container2">
+  <a href="catagories.html?pageId=page1"><button id="catagores-button">Action</button></a>
+  <a href="catagories.html?pageId=page2"><button id="catagores-button">Crime</button></a>
+  <a href="catagories.html?pageId=page3"><button id="catagores-button">Romance</button></a>
+  <a href="catagories.html?pageId=page4"><button id="catagores-button">Comedy</button></a>
+  <button   id="view-all-button" style="background-color: rgb(255, 5, 84);color: aliceblue;">view all ></button>
+
+  <div id="additional-buttons" class="button-container2 hidden2">
+    <a href="catagories.html?pageId=page5"><button id="catagores-button">Drama</button></a>
+  <a href="catagories.html?pageId=page6"><button id="catagores-button">Horror</button></a>
+  <a href="catagories.html?pageId=page7"><button id="catagores-button">Mystery</button></a>
+  </div>
+</div>
+</div>
+ <script>
+document.addEventListener("DOMContentLoaded", function() {
+  const viewAllButton = document.getElementById("view-all-button");
+  const additionalButtons = document.getElementById("additional-buttons");
+
+  viewAllButton.addEventListener("click", function() {
+    additionalButtons.classList.toggle("hidden2");
+    viewAllButton.style.display = "none"; // Hide the "View All" button
+  });
+});
+
+ </script>
+ 
+</body>
+</html>

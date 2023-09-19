@@ -1,0 +1,81 @@
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#a1{
+    position: absolute;
+    padding-left:150vh;
+    padding-top: 40vh;
+}
+#h1{
+    position:relative;
+    padding-left: 80px;
+    margin-top: -50px;
+    font-family: 'Shadows Into Light', cursive;
+    background: -webkit-linear-gradient(#000000, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+#back{
+  margin-left: 4vh;
+  color: #000;
+z-index: 1;
+background-color:transparent ;
+position: relative;
+}
+
+#back:hover{
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+
+
+#cc{
+    position: absolute;
+font-family: 'Shadows Into Light', cursive;
+padding-top: -60;
+padding-left: 80px;
+font-size: 20px;
+   
+}
+#sign{
+  margin-top: -50px;
+}
+
+
+#ps{
+  position: absolute;
+  margin-left:674px;
+  margin-top: -50px;
+}
+#boxx{
+ 
+ 
+  background-color: transparent;
+ 
+  margin-top: -5px;
+padding-left: 85vh;
+}
+
+.mom {
+  position: absolute;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 170px;
+
+gap: 50px;
+
+}
+.ww{
+  width: 15px;
+}
+.ww:hover{
+  background-color: rgb(38, 8, 8);
+  border-radius: 70px;
+}
